@@ -1,8 +1,9 @@
 app = angular.module("Raffler", ["ngResource"])
 
+app.factory "Entry", ($resource) ->
+  $resource("/entries/:id", {id: "@id"}, {update: {method: "PUT"}} )
 
-@RaffleCtrl = ($scope, $resource) ->
-  Entry = $resource("/entries/:id", {id: "@id"}, {update: {method: "PUT"}})
+@RaffleCtrl = ($scope, Entry) ->
   $scope.entries = Entry.query()
   
   $scope.addEntry = ->
@@ -19,3 +20,6 @@ app = angular.module("Raffler", ["ngResource"])
       entry.winner = true
       entry.$update()
       $scope.lastWinner = entry
+      
+      
+    
