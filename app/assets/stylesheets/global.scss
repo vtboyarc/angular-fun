@@ -36,10 +36,12 @@ header {
   
 }
 
-@media only screen and (max-width: 640px)  {
-					body[yahoo] .deviceWidth {width:440px!important; padding:0;}	
-			}
-			
-@media only screen and (max-width: 479px) {
-					body[yahoo] .deviceWidth {width:280px!important; padding:0;}	
-			}
+
+  @media screen and (max-width: 800px) {
+     .mobile {
+        display:none;
+        #content {
+        width: 100%;
+     }
+  }
+}
