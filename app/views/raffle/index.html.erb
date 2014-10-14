@@ -4,10 +4,12 @@
 
 
 <div ng-controller="RaffleCtrl">
+ <div class="shadow">
   <form ng-submit="addEntry()">
     <input type="text" ng-model="newEntry.name">
     <input type="submit" value="Add">
   </form>
+</div>
 <div class="center">
   
   <ul>
@@ -28,4 +30,8 @@
     <span></span>
     <span></span>
     <span></span>
+</div>
+
+<div id="footer">
+  Made with AngularJS
 </div>
