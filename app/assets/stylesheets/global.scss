@@ -49,12 +49,15 @@ header {
     text-align:left;
 }
 
+
 .winner {
-  color: red;
-  
+  color: #999;
+  &.highlight {
+    color: #DD0000;
+    font-weight: bold;
+  }
 }
-
-
+  
   @media screen and (max-width: 800px) {
      .mobile {
         display:none;
