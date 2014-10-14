@@ -7,4 +7,17 @@
 body {
 	margin:50px 0px; padding:0px;
 	text-align:center;
+  background-color: #B8BFD4;
 	}
+  
+  #main, #container {
+   width: 100%;
+   margin: auto;
+  }
+  
+header {
+  float: left;
+  width: 100%;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+}
