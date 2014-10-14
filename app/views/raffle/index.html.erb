@@ -6,10 +6,15 @@
     <input type="submit" value="Add">
   </form>
 <div class="center">
+  
   <ul>
     <li ng-repeat="entry in entries">
       {{entry.name}}
+      <span ng-show="entry.winner" ng-class="{highlight: entry == lastWinner}" class="winner">WINNER</span>
     </li>
   </ul>
+  
+  <button ng-click="drawWinner()">Draw Winner</button>
+  
 </div>
 </div>
