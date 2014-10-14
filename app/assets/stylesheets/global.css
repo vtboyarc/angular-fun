@@ -21,3 +21,9 @@ header {
   margin-bottom: 10px;
   padding-bottom: 10px;
 }
+
+.center{
+    width:200px;
+    margin:0 auto;
+    text-align:left;
+}
