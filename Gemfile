@@ -18,6 +18,7 @@ group :assets do
   # gem 'therubyracer', :platforms => :ruby
 
   gem 'uglifier', '>= 1.0.3'
+  gem 'angularjs-rails'
 end
 
 gem 'jquery-rails'
@@ -33,7 +34,6 @@ gem 'dotenv-rails', :groups => [:development, :test]
 # Use unicorn as the app server
 gem 'unicorn'
 
-gem 'angularjs-rails'
 # Deploy with Capistrano
 # gem 'capistrano'
 
