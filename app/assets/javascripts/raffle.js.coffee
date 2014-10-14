@@ -21,5 +21,4 @@ app.factory "Entry", ($resource) ->
       entry.$update()
       $scope.lastWinner = entry
       
-      
     
