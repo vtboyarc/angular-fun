@@ -33,6 +33,7 @@ gem 'dotenv-rails', :groups => [:development, :test]
 # Use unicorn as the app server
 gem 'unicorn'
 
+gem 'angularjs-rails'
 # Deploy with Capistrano
 # gem 'capistrano'
 
