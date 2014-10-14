@@ -1,0 +1,45 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body {
+  /*font: 12px/15px sans-serif;*/
+  margin:50px 0px; padding:3px;
+  text-align:center;
+  background-color: #B8BFD4;
+  color: #000;
+
+  }
+
+  #main, #container {
+   width: 100%;
+   margin: auto;
+  }
+
+header {
+  float: left;
+  width: 100%;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+}
+
+.center{
+    width:200px;
+    margin:0 auto;
+    text-align:left;
+}
+
+.winner {
+  color: red;
+  
+}
+
+@media only screen and (max-width: 640px)  {
+					body[yahoo] .deviceWidth {width:440px!important; padding:0;}	
+			}
+			
+@media only screen and (max-width: 479px) {
+					body[yahoo] .deviceWidth {width:280px!important; padding:0;}	
+			}
